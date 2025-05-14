@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+    background-color: #f2f2f2;
+
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #4b5d67;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #6c7a89;
+  transform: scale(1.05);
+}
+
+/* Optional unique button colors */
+.one {
+  background-color: #ff6b6b;
+}
+
+.two {
+  background-color: #4ecdc4;
+}
+
+.three {
+  background-color: #ffe66d;
+  color: #000;
+}
+
+.four {
+  background-color: #1a535c;
+}
